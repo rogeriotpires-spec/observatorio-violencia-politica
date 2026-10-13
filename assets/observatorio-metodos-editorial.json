@@ -1,0 +1,504 @@
+{
+  "updated": "2026-10-13",
+  "scope": "Página Métodos e responsáveis; agrupamento editorial, sem alteração da base de registros",
+  "selectionCriteria": [
+    "Correspondência com a fonte",
+    "Estado da atribuição de responsabilidade",
+    "Diversidade histórica e geográfica"
+  ],
+  "blocks": [
+    {
+      "id": "assassinatos",
+      "label": "Assassinatos e execuções",
+      "title": "Quando a violência tira uma vida.",
+      "description": "Execuções, homicídios e mortes sob investigação atingem pessoas e a participação política. A responsabilidade precisa ser examinada em cada episódio.",
+      "image": "metodo-assassinatos.webp",
+      "alt": "Cena fictícia: microfone caído, óculos e flores em um salão de reunião vazio, com pessoas ao fundo.",
+      "examples": [
+        {
+          "record": "TL-F1-0026",
+          "text": "Oswaldo Payá, Cuba: a CIDH responsabilizou o Estado pela violação do direito à vida. O relatório não equivale a condenação criminal de agentes individualizados.",
+          "sources": [
+            "F0032"
+          ]
+        },
+        {
+          "record": "TL-F1-0127",
+          "text": "Friedrich Akel, Estônia: execução em Tallinn, em 1941, no contexto do aparelho repressivo soviético descrito pela fonte histórica.",
+          "sources": [
+            "F0110"
+          ]
+        },
+        {
+          "record": "TL-F1-0157",
+          "text": "Elvino Dias, Moçambique: a HRW documentou sua morte em Maputo em 2024. Os autores não estão individualizados na ficha.",
+          "sources": [
+            "F0126"
+          ]
+        }
+      ],
+      "responsibility": "Responsabilidade estatal reconhecida pela CIDH, atribuição histórica e autoria ainda não esclarecida são situações diferentes, identificadas nas respectivas fichas.",
+      "sourceIds": [
+        "F0032",
+        "F0110",
+        "F0126"
+      ],
+      "browse": {
+        "collection": "documental",
+        "method": "Assassinato ou morte investigada"
+      },
+      "archive": [
+        {
+          "file": "referencia-kirk.webp",
+          "caption": "Charlie Kirk: ilustração da edição de referência.",
+          "record": "TL-F1-0004",
+          "page": 2,
+          "xref": 371
+        }
+      ]
+    },
+    {
+      "id": "atentados",
+      "label": "Tentativas de assassinato",
+      "title": "A disputa atingida pela violência.",
+      "description": "Ataques durante campanhas e ações interrompidas pela segurança permanecem como episódios separados. Sobrevivência da vítima não elimina a gravidade do acontecimento.",
+      "image": "metodo-atentados.webp",
+      "alt": "Cena fictícia: seguranças protegem um orador anônimo junto a um púlpito, enquanto adultos procuram abrigo.",
+      "examples": [
+        {
+          "record": "TL-F1-0001",
+          "text": "Jair Bolsonaro, Brasil, 2018: esfaqueado por Adélio Bispo. A denúncia do MPF atribuiu motivação política e registrou declaração ideológica do agressor; isso não demonstra comando de partido.",
+          "sources": [
+            "F0002"
+          ]
+        },
+        {
+          "record": "TL-F1-0002",
+          "text": "Donald Trump, Butler, julho de 2024: atentado apurado pelo FBI. Na entrevista de agosto de 2024, o órgão ainda não havia identificado motivação ou ideologia definitiva do agressor.",
+          "sources": [
+            "F0004"
+          ]
+        },
+        {
+          "record": "TL-F1-0003",
+          "text": "Donald Trump, Flórida, setembro de 2024: ação de Ryan Routh interrompida pelo Serviço Secreto. A ficha apresenta o comunicado judicial do DOJ e seus limites.",
+          "sources": [
+            "F0005"
+          ]
+        }
+      ],
+      "responsibility": "A identidade do agressor e sua orientação ideológica exigem provas próprias. As conclusões são apresentadas com a data e a natureza da fonte.",
+      "sourceIds": [
+        "F0002",
+        "F0004",
+        "F0005"
+      ],
+      "browse": {
+        "collection": "documental",
+        "method": "Tentativa de assassinato"
+      },
+      "archive": [
+        {
+          "file": "referencia-bolsonaro.webp",
+          "caption": "Bolsonaro: ilustração da edição de referência.",
+          "record": "TL-F1-0001",
+          "page": 2,
+          "xref": 857
+        },
+        {
+          "file": "referencia-trump.webp",
+          "caption": "Butler: ilustração da edição de referência.",
+          "record": "TL-F1-0002",
+          "page": 2,
+          "xref": 559
+        }
+      ]
+    },
+    {
+      "id": "sequestros",
+      "label": "Sequestros e reféns",
+      "title": "A liberdade como moeda de troca.",
+      "description": "A retenção de lideranças para pressionar uma troca de prisioneiros aparece na documentação das FARC-EP. O Auto 19/2021 da JEP examina os fatos e as estruturas envolvidas.",
+      "image": "cativeiro.webp",
+      "alt": "Ilustração conceitual: adulto com as mãos amarradas em um abrigo isolado na floresta.",
+      "reused": true,
+      "examples": [
+        {
+          "record": "TL-F1-0039",
+          "text": "Ingrid Betancourt, Colômbia, 2002: candidata presidencial retida pelo Frente 15 das FARC-EP na estrada entre Florencia e San Vicente del Caguán.",
+          "sources": [
+            "F0045"
+          ]
+        },
+        {
+          "record": "TL-F1-0041",
+          "text": "Luis Eladio Pérez, Colômbia, 2001: senador sequestrado por estruturas das FARC-EP para pressionar a troca por guerrilheiros presos.",
+          "sources": [
+            "F0045"
+          ]
+        },
+        {
+          "record": "TL-F1-0051",
+          "text": "Deputados do Valle del Cauca, 2002: a ficha de Alberto Quintero e as entradas relacionadas documentam a operação contra a assembleia em Cali.",
+          "sources": [
+            "F0045"
+          ]
+        }
+      ],
+      "responsibility": "FARC-EP, conforme o Auto 19/2021 da JEP. Trata-se de determinação de fatos e condutas; decisões e sanções posteriores precisam de acompanhamento próprio.",
+      "sourceIds": [
+        "F0045"
+      ],
+      "browse": {
+        "collection": "documental",
+        "method": "Sequestro ou desaparecimento"
+      },
+      "archive": []
+    },
+    {
+      "id": "prisoes",
+      "label": "Prisões e perseguição política",
+      "title": "A oposição atrás das grades.",
+      "description": "Detenções de aspirantes à Presidência e dirigentes opositores aparecem em relatórios de direitos humanos e comunicações internacionais, com diferentes graus de confirmação.",
+      "image": "prisao.webp",
+      "alt": "Ilustração conceitual: pessoa atrás de grades em um corredor de prisão, iluminado por uma janela alta.",
+      "reused": true,
+      "examples": [
+        {
+          "record": "TL-F1-0017",
+          "text": "Cristiana Chamorro, Nicarágua, 2021: prisão domiciliar documentada pela HRW no contexto da repressão anterior às eleições, sob o governo Ortega.",
+          "sources": [
+            "F0027"
+          ]
+        },
+        {
+          "record": "TL-F1-0036",
+          "text": "Henry Alviarez, Venezuela, 2024: uma comunicação da ONU registra alegações de detenção e desaparecimento forçado. A carta não decide o mérito dessas alegações.",
+          "sources": [
+            "F0041"
+          ]
+        },
+        {
+          "record": "TL-F1-0167",
+          "text": "Job Sikhala, Zimbábue: a HRW criticou a longa prisão preventiva iniciada em 2022 e relatou a decisão judicial de janeiro de 2024.",
+          "sources": [
+            "F0132"
+          ]
+        }
+      ],
+      "responsibility": "Atuação de autoridades estatais conforme as fontes citadas. A prisão de um opositor, isoladamente, não comprova arbitrariedade nem define sua orientação política.",
+      "sourceIds": [
+        "F0027",
+        "F0041",
+        "F0132"
+      ],
+      "browse": {
+        "collection": "documental",
+        "method": "Prisão, deportação ou repressão"
+      },
+      "archive": []
+    },
+    {
+      "id": "tortura",
+      "label": "Tortura e agressões",
+      "title": "O corpo como alvo da repressão.",
+      "description": "Espancamentos, maus-tratos e tortura exigem descrições e fontes próprias. Os exemplos abaixo mantêm a qualificação utilizada em cada documento.",
+      "image": "repressao.webp",
+      "alt": "Ilustração conceitual: pessoa de joelhos numa praça sob chuva, diante de agentes ao fundo.",
+      "reused": true,
+      "examples": [
+        {
+          "record": "TL-F1-0224",
+          "text": "Sam Speight, Fiji, 2011: a Amnesty documentou detenção militar e agressões qualificadas como tortura, seguidas de libertação.",
+          "sources": [
+            "F0178"
+          ]
+        },
+        {
+          "record": "TL-F1-0019",
+          "text": "Félix Maradiaga, Nicarágua, 2021: a HRW registrou a detenção e o relato de seu advogado sobre agressão durante a abordagem.",
+          "sources": [
+            "F0027"
+          ]
+        },
+        {
+          "chapter": "HIST-006",
+          "text": "China, Revolução Cultural: o capítulo histórico aborda humilhações, prisões e agressões contra adversários reais ou presumidos. É contexto histórico, separado das fichas individuais.",
+          "sources": [
+            "HFS011",
+            "HFS012"
+          ]
+        }
+      ],
+      "responsibility": "Militares em Fiji, agentes envolvidos na detenção na Nicarágua e autoridades ou facções no contexto chinês são tratados conforme a documentação específica, sem presumir conexão entre eles.",
+      "sourceIds": [
+        "F0178",
+        "F0027",
+        "HFS011",
+        "HFS012"
+      ],
+      "archive": []
+    },
+    {
+      "id": "deportacoes",
+      "label": "Deportações e repressão em massa",
+      "title": "Arrancados de casa e da vida pública.",
+      "description": "A transferência forçada, o encarceramento distante e a repressão de populações aparecem em diferentes contextos históricos. Pessoas e estimativas coletivas têm unidades distintas.",
+      "image": "metodo-deportacoes.webp",
+      "alt": "Cena fictícia: adultos com malas aguardam junto a um vagão de carga em uma plataforma ferroviária fria, sob vigilância distante.",
+      "examples": [
+        {
+          "record": "TL-F1-0134",
+          "text": "Aleksandras Stulginskis, Lituânia: a biografia parlamentar registra prisão e deportação em 1941, além de encarceramento sem julgamento em Kraslag.",
+          "sources": [
+            "F0112"
+          ]
+        },
+        {
+          "record": "TL-F1-0140",
+          "text": "Kārlis Ulmanis, Letônia: a Presidência do país registra deportação em 1940, prisão soviética em 1941 e morte na prisão em 1942.",
+          "sources": [
+            "F0114"
+          ]
+        },
+        {
+          "chapter": "HIST-009",
+          "text": "Etiópia, regime do Derg: o capítulo documenta repressão, violência contra civis e deslocamentos forçados. Suas estimativas não entram na contagem individualizada.",
+          "sources": [
+            "HFS016",
+            "HFS017",
+            "HFS018"
+          ]
+        }
+      ],
+      "responsibility": "Aparelho repressivo soviético nos episódios bálticos e ditadura do Derg no capítulo etíope, segundo as fontes. São contextos distintos, sem coordenação presumida entre eles.",
+      "sourceIds": [
+        "F0112",
+        "F0114",
+        "HFS016",
+        "HFS017",
+        "HFS018"
+      ],
+      "archive": []
+    },
+    {
+      "id": "ameacas",
+      "label": "Ameaças e intimidação",
+      "title": "O medo antes das urnas.",
+      "description": "Relatos de ameaças e medidas de proteção revelam situações que precisam ser investigadas. Nesta base, esses relatos permanecem em um conjunto agregado, separado das ocorrências individualizadas.",
+      "image": "metodo-ameacas.webp",
+      "alt": "Cena fictícia: colete de proteção e celular sobre uma mesa, enquanto uma pessoa fecha a cortina de um escritório à noite.",
+      "status": "Relatos agregados em revisão",
+      "examples": [
+        {
+          "record": "TL-F1-0007",
+          "text": "Abelardo de la Espriella, Colômbia, 2026: citado pela CIDH entre as candidaturas ameaçadas. O comunicado não identifica cada mensagem nem seus autores.",
+          "sources": [
+            "F0013"
+          ]
+        },
+        {
+          "record": "TL-F1-0008",
+          "text": "Paloma Valencia, Colômbia, 2026: também incluída no comunicado da CIDH sobre violência no processo eleitoral.",
+          "sources": [
+            "F0013"
+          ]
+        },
+        {
+          "record": "TL-F1-0009",
+          "text": "Flávio Bolsonaro, Brasil, 2026: a reportagem citada registra anúncio de uso de colete e reforço da segurança. Essas medidas não comprovam, por si, cada ameaça relatada.",
+          "sources": [
+            "F0015"
+          ]
+        }
+      ],
+      "responsibility": "Autoria não individualizada nas fontes reunidas. Relatos de mensagens e anúncios de proteção não são convertidos em um total de ataques, nem atribuídos automaticamente a uma organização.",
+      "sourceIds": [
+        "F0013",
+        "F0015"
+      ],
+      "browse": {
+        "collection": "agregado",
+        "method": "Ameaças"
+      },
+      "archive": [
+        {
+          "file": "referencia-abelardo.webp",
+          "caption": "Abelardo: ilustração da edição de referência.",
+          "record": "TL-F1-0007",
+          "page": 2,
+          "xref": 971
+        },
+        {
+          "file": "referencia-paloma.webp",
+          "caption": "Paloma Valencia: ilustração da edição de referência.",
+          "record": "TL-F1-0008",
+          "page": 3,
+          "xref": 1132
+        }
+      ]
+    },
+    {
+      "id": "propriedades",
+      "label": "Ataques a propriedades",
+      "title": "Quando a violência deixa cinzas.",
+      "description": "A destruição de bens também integra a investigação. O contexto de uma mobilização política não basta para concluir quem agiu ou qual foi a motivação.",
+      "image": "metodo-propriedades.webp",
+      "alt": "Cena fictícia: caminhonete destruída por um incêndio em uma estrada rural molhada, com fumaça e uma pessoa ao fundo.",
+      "status": "Episódio em apuração documental",
+      "examples": [
+        {
+          "record": "TL-F1-0011",
+          "text": "Fred Williams, Pernambuco, 2026: a imprensa local relatou o incêndio de sua caminhonete durante mobilização pró-Flávio. A data exata diverge entre referências e permanece pendente.",
+          "sources": [
+            "F0016"
+          ]
+        },
+        {
+          "record": "TL-F1-0010",
+          "text": "O homicídio posterior de Fred Williams tem ficha própria. A sequência dos acontecimentos não demonstra, sozinha, vínculo entre os responsáveis pelos dois episódios.",
+          "sources": [
+            "F0016",
+            "F0196"
+          ]
+        }
+      ],
+      "responsibility": "Autoria e motivação não estabelecidas nas fontes localizadas. O relato jornalístico é apresentado com essa limitação, sem atribuição ideológica do crime.",
+      "sourceIds": [
+        "F0016",
+        "F0196"
+      ],
+      "archive": [
+        {
+          "file": "referencia-fred.webp",
+          "caption": "Fred Williams: ilustração da edição de referência.",
+          "record": "TL-F1-0011",
+          "page": 3,
+          "xref": 1509
+        }
+      ]
+    }
+  ],
+  "images": {
+    "nature": "Ilustrações conceituais; não são prova fotográfica dos acontecimentos",
+    "new": [
+      {
+        "id": "assassinatos",
+        "path": "assets/imagens/metodo-assassinatos.webp",
+        "width": 1672,
+        "height": 941,
+        "sha256": "456c6a0f61622e33e0094c56d61d18e861837aa7873d2a44729f38a6f1935c0a",
+        "bytes": 197470,
+        "mode": "Ferramenta integrada image_gen; texto para imagem",
+        "prompt": "Use case: photorealistic-natural. Asset type: cinematic editorial image for a historical observatory about political violence. Create one exceptionally realistic landscape 16:9 cinema frame, approximately 1672 by 941 pixels. A fictional public assembly hall after a political killing, photographed low from the aisle: a fallen microphone and a pair of abandoned eyeglasses sharply visible on the worn stone floor, scattered empty chairs, an empty lectern in the midground, two anonymous grieving adults standing in shadow by the doorway, a small cluster of white flowers placed beside the lectern. Convey a life and a public voice violently cut short, through loss, silence and human posture. Restrained documentary cinematography, real skin and fabric, textured stone, practical amber overhead light and cold gray dawn from windows, deep charcoal shadows with readable detail, subtle film grain. One coherent believable scene, visually powerful and dignified, not a collage. No blood, wounds, body, visible weapon or violence in progress. No identifiable real person or historical incident, no country or party symbols, no logos, text, captions or watermarks. Fictional conceptual illustration, not archival evidence."
+      },
+      {
+        "id": "atentados",
+        "path": "assets/imagens/metodo-atentados.webp",
+        "width": 1672,
+        "height": 941,
+        "sha256": "0699a845df953f2e4fb0b04af954cb0f3e27deed5596ca52c67b19019b367db3",
+        "bytes": 212442,
+        "mode": "Ferramenta integrada image_gen; texto para imagem",
+        "prompt": "Use case: photorealistic-natural. Asset type: cinematic editorial image illustrating an assassination attempt, for a historical observatory. One ultra-realistic 16:9 landscape frame, approximately 1672 by 941 pixels. A fictional small outdoor political gathering at dusk at the moment the audience seeks cover: two anonymous adult security staff shield a fully clothed anonymous adult speaker beside a simple lectern, seen from behind and the side, faces not recognizable, a toppled microphone in the near foreground, blurred adults taking cover in the distance. The body language should communicate immediate danger and protective action. Modest real municipal square, no grandiose scenery, practical warm stage light, blue-gray dusk, charcoal and restrained amber palette, authentic fabric wrinkles, wet paving, subtle cinema grain, natural perspective and anatomy. The focus is fear and survival. No visible attacker, gunfire, blood, wounds, dead people or minors. Do not recreate any known event or identifiable politician, no flags, party logos or emblems, no readable text, no typography or watermarks. A fictional conceptual illustration, not an alleged press photograph. Single scene, no collage, no exaggerated Hollywood explosions."
+      },
+      {
+        "id": "deportacoes",
+        "path": "assets/imagens/metodo-deportacoes.webp",
+        "width": 1672,
+        "height": 941,
+        "sha256": "3c528b8cd2ac46a43b0dae36745ee52ec710811773a83be33e3805d731aa8e7a",
+        "bytes": 228988,
+        "mode": "Ferramenta integrada image_gen; texto para imagem",
+        "prompt": "Use case: historical-scene. Asset type: cinematic conceptual editorial illustration for a documentary observatory about forced deportation and state repression. Generate one ultra-photorealistic landscape 16:9 frame, approximately 1672 by 941 pixels. Fictional cold railway platform in the mid-twentieth century, a small line of anonymous adult civilians wearing worn wool overcoats and carrying modest canvas and leather luggage, seen mostly from behind, waiting beside the open door of a weathered freight carriage. A lone indistinct uniformed guard silhouette is far in the background, no identifiable insignia. Focus on an adult woman's hand tightly gripping the handle of an old suitcase in the foreground, with the train and other displaced adults receding into mist. Oppressive uncertainty, enforced loss of home, dignity and vulnerability. Realistic winter breath, frost, timber, metal and fabric, subdued dawn, warm amber light leaking from one station window, cold desaturated shadows, fine cinema grain. Period details broadly plausible but no claim to depict one real deportation. No minors, no blood, wounds, dead bodies, recognizable people, readable text, flags, emblems, logos or watermarks. One coherent cinematic scene, not a collage."
+      },
+      {
+        "id": "ameacas",
+        "path": "assets/imagens/metodo-ameacas.webp",
+        "width": 1672,
+        "height": 941,
+        "sha256": "64f67ce11050993fdaaf414eaadcebbb57d30a36fa3d96a5f915f2ff72124404",
+        "bytes": 120552,
+        "mode": "Ferramenta integrada image_gen; texto para imagem",
+        "prompt": "Use case: photorealistic-natural. Asset type: cinematic editorial conceptual image for a political-violence observatory, about threats and intimidation before an election. Create one striking ultra-realistic 16:9 landscape still, approximately 1672 by 941 pixels. Inside a modest office at night, a plain unmarked ballistic protective vest rests on a wooden table beside a smartphone with an unreadable blurred screen and a folded jacket. An anonymous fully clothed adult stands at the far window with their back turned, cautiously pulling the curtain closed; face not visible. A blurred anonymous security silhouette is outside in the dim distance. A coherent realistic scene conveying anxiety, disrupted daily life and the weight of a threat. Charcoal blacks, desaturated blue night, amber practical desk lamp, natural shadow gradients, highly believable materials, subtle film grain, not polished stock photography or plastic CGI. No readable messages, names, text or numbers, no weapon, injury, blood, flags, party symbols, logos or watermarks. No identifiable real politician or historical event. A fictional editorial illustration, not evidentiary photography."
+      },
+      {
+        "id": "propriedades",
+        "path": "assets/imagens/metodo-propriedades.webp",
+        "width": 1672,
+        "height": 941,
+        "sha256": "b4df92c7f1e88a2d555e3884a587f4ba2ffc1c959bb1406f802b6d374255ea88",
+        "bytes": 331502,
+        "mode": "Ferramenta integrada image_gen; texto para imagem",
+        "prompt": "Use case: photorealistic-natural. Asset type: cinematic editorial illustration for a historical observatory about violence against property in political contexts. One intensely realistic 16:9 landscape frame, approximately 1672 by 941 pixels. A fictional ordinary unbranded pickup truck severely damaged by a fire on the side of a quiet rural road after rainfall, dawn approaching. Charred metal, blackened cracked glass, smoke drifting upward, faint orange embers in the cab, wet mud reflecting the last amber glow, countryside and trees fading into blue-gray mist. An anonymous fully clothed adult owner is seen from behind at a respectful distance near the road, shoulders lowered, face not identifiable. Focus on the aftermath and human loss, no active attacker or explanation of how fire was set. Somber documentary cinema, real proportions and material texture, subtle grain, charcoal and muted amber palette, strong but natural lighting, no stylized painting or collage. No injuries, blood, bodies or minors. No readable plate or text, no flags, campaign branding, logos or watermarks. Unspecified place and event, conceptual fictional illustration, not a reconstruction of an actual case."
+      }
+    ],
+    "reusedCinematic": [
+      "assets/imagens/cativeiro.webp",
+      "assets/imagens/prisao.webp",
+      "assets/imagens/repressao.webp"
+    ],
+    "originalPDF": [
+      {
+        "file": "assets/imagens/referencia-kirk.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 2,
+        "image_area_xref": 371,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 718,
+        "height": 405,
+        "sha256": "18df254b6d2afc5e1fa53efc6240cd588f6ac46bc314ad140d3bc5311c1dc2d8"
+      },
+      {
+        "file": "assets/imagens/referencia-bolsonaro.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 2,
+        "image_area_xref": 857,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 719,
+        "height": 405,
+        "sha256": "7d48ceb4d29d638ae146771d6242e0f9e4fdd2e4f1946945c7fed7ffffcc5b33"
+      },
+      {
+        "file": "assets/imagens/referencia-trump.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 2,
+        "image_area_xref": 559,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 719,
+        "height": 405,
+        "sha256": "9baf5c868397a54e20da793ce57d63ca9bf0929fcce3c7d38e5d43261339ca29"
+      },
+      {
+        "file": "assets/imagens/referencia-abelardo.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 2,
+        "image_area_xref": 971,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 719,
+        "height": 405,
+        "sha256": "e57219f6fba36696952387867beea2246dcfeccbff0f04013321b984b49eddf4"
+      },
+      {
+        "file": "assets/imagens/referencia-paloma.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 3,
+        "image_area_xref": 1132,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 718,
+        "height": 405,
+        "sha256": "c24136d87d305bb704118d18efb246b1d86ae292c91e589fc4f3e837ef4c4f7d"
+      },
+      {
+        "file": "assets/imagens/referencia-fred.webp",
+        "source_pdf": "Observatorio_Violencia_Politica_Timeline.pdf",
+        "page": 3,
+        "image_area_xref": 1509,
+        "extraction": "Rendered PDF illustration area, preserving the original vector composition and its text",
+        "width": 718,
+        "height": 406,
+        "sha256": "57ef86a0d23fc2d9c9d1cbe4f7597ad719b0d800ee2c9bf9ac4db9525937b4da"
+      }
+    ]
+  }
+}

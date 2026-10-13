@@ -30,6 +30,18 @@ Verificação desta reorganização: 15 verificações de estrutura, navegação
 
 Manutenção: atualizar as páginas específicas e os recursos compartilhados em `assets/`. Evitar substituir `index.html` por uma versão anterior que reúna todas as seções. Alterações em recursos compartilhados precisam atualizar seus identificadores `?v=` nos sete arquivos HTML.
 
+## Métodos e responsáveis
+
+A página `metodos.html` apresenta oito blocos temáticos com uma imagem cinematográfica própria em cada um. Cinco cenas novas complementam as três já presentes no dossiê. Seis ilustrações do PDF de referência também foram preservadas, acessíveis nos blocos correspondentes.
+
+Os destaques remetem a 21 fichas existentes e dois capítulos históricos. São entradas de leitura, sem acréscimo de ocorrências ou alteração do estado de validação. Relatos agregados de ameaças continuam separados; a atribuição de autoria e seus limites aparecem junto aos documentos. A seleção considera correspondência documental, clareza da atribuição e diversidade histórica e geográfica.
+
+Há acesso direto a cada tema e paginação de quatro blocos no computador e dois em telas de até 760 px. Cada página informa a posição entre os oito blocos. Sem JavaScript, os oito permanecem legíveis. Fontes, fichas e capítulos podem ser abertos dentro do Observatório.
+
+Os estilos e a navegação específicos estão em `assets/observatorio-metodos.css` e `assets/observatorio-metodos.js`. O agrupamento editorial, os créditos de reaproveitamento e os prompts das novas imagens estão em `assets/observatorio-metodos-editorial.json`. O antigo gerador da página única não deve substituir essa página. O PDF aprovado permanece idêntico.
+
+Esta ampliação passou por 12 verificações de estrutura e interação em DOM, incluindo paginação, retorno pelo histórico, referências, leitores, imagens e integridade. As imagens foram inspecionadas; não houve inspeção da página em navegador real nesta sessão.
+
 ## PDF e contadores
 
 O dossiê completo está em `downloads/Dossie_Observatorio_Timeline.pdf`. O arquivo preserva o estado de revisão documental e inclui as três ilustrações aprovadas.
