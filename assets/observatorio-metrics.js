@@ -21,13 +21,13 @@
   function show(data) {
     if (data.scope !== 'observatorio-violencia-politica' || data.test !== false ||
         !['visitas', 'pdf'].every(k => Number.isSafeInteger(data.counts?.[k]) && data.counts[k] >= 0)) throw new Error('Invalid totals');
-    for (const k of ['visitas', 'pdf']) document.getElementById(`counter-${k}`).textContent = format.format(data.counts[k]);
-    status.textContent = 'Contadores atualizados.'; retry.hidden = true; loaded = true;
+    for (const k of ['visitas', 'pdf']) { const el = document.getElementById(`counter-${k}`); if (el) el.textContent = format.format(data.counts[k]); }
+    if (status) status.textContent = 'Contadores atualizados.'; if (retry) retry.hidden = true; loaded = true;
   }
   function unavailable() {
-    status.textContent = loaded ? 'Exibindo a última contagem recebida. Atualização indisponível no momento.' : 'Contadores temporariamente indisponíveis. O PDF continua disponível.';
-    retry.hidden = false;
-    if (!loaded) for (const k of ['visitas', 'pdf']) document.getElementById(`counter-${k}`).textContent = 'Indisponível';
+    if (status) status.textContent = loaded ? 'Exibindo a última contagem recebida. Atualização indisponível no momento.' : 'Contadores temporariamente indisponíveis. O PDF continua disponível.';
+    if (retry) retry.hidden = false;
+    if (!loaded) for (const k of ['visitas', 'pdf']) { const el = document.getElementById(`counter-${k}`); if (el) el.textContent = 'Indisponível'; }
   }
   async function request(event) {
     const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 5000);
@@ -73,6 +73,6 @@
   document.addEventListener('click', trackDownload);
   document.addEventListener('auxclick', trackDownload);
   document.addEventListener('visibilitychange', start);
-  retry.addEventListener('click', () => { if (visit) void refreshVisit(); else start(); });
+  retry?.addEventListener('click', () => { if (visit) void refreshVisit(); else start(); });
   start();
 })();
